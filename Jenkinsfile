@@ -7,7 +7,7 @@ node
     }
    stage("Hello World"){
        bat label: '',
-       script: '''cd C:\\Users\\Family computer\\Jenkins\\JenkinsHelloWorld
+       script: '''cd C:\Program Files (x86)\Jenkins\workspace\MyFirstPipeline
              javac Hello.java
              java Hello
         '''
